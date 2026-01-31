@@ -1,0 +1,35 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+
+        
+       long studentID = 202310001;
+       String fullName = "John Michael Reyes";
+       String nickName = "Mike";
+       String gender = "Male";
+       String yearLevel = "3rd Year";
+       String homeLocation = "123 St. Greenfield, Metro City";
+       String course = "Bachelor of Science in Information Technology";
+       long mobileNum = 639123456789;
+       String email = "mike.reyes@gmail.com";
+
+string message = $@"
+Demographics Program by Katleen L. Briones
+
+Student ID     : {studentID}
+Full Name      : {fullName}
+Nick Name      : {nickName}
+Gender         : {gender}
+Year Level     : {yearLevel}
+Home Location  : {homeLocation}
+Course         : {course}
+Mobile No.     : {mobileNum}
+Personal Email : {email}
+";
+Console.WriteLine(message);
+        
+    }
+}
